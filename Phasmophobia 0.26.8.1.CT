@@ -20,7 +20,7 @@ luacall(cycleFullCompact(nil,false))
       <ID>521</ID>
       <Description>"Enable Hacks"</Description>
       <Options moHideChildren="1"/>
-      <LastState Activated="1"/>
+      <LastState/>
       <Color>000000</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[ENABLE]
@@ -42,7 +42,6 @@ luacall(cycleFullCompact(nil,false))
             <CheatEntry>
               <ID>552</ID>
               <Description>"Name"</Description>
-              <LastState RealAddress="18DBDB01D04"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>String</VariableType>
               <Length>25</Length>
@@ -60,7 +59,6 @@ luacall(cycleFullCompact(nil,false))
             <CheatEntry>
               <ID>1327</ID>
               <Description>"Money"</Description>
-              <LastState Value="18802" RealAddress="18E89EDCF18"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
@@ -76,7 +74,6 @@ luacall(cycleFullCompact(nil,false))
             <CheatEntry>
               <ID>1328</ID>
               <Description>"Exp"</Description>
-              <LastState Value="19237" RealAddress="18E89EDCF48"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
@@ -303,7 +300,7 @@ GameAssembly.dll.il2cpp+18F3D34: 4D 8B 81 C8 05 00 00  - mov r8,[r9+000005C8]
               <ID>1410</ID>
               <Description>"Flashlights/Glowstick Control Hook (pickup the item you want to hack first to update the values correctly)"</Description>
               <Options moHideChildren="1"/>
-              <LastState Activated="1"/>
+              <LastState/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{ Game   : Phasmophobia.exe
   Version: 
@@ -570,7 +567,6 @@ UnityPlayer.dll.text+601FB5: 48 85 81 C8 00 00 00  - test [rcx+000000C8],rax
                     <CheatEntry>
                       <ID>1424</ID>
                       <Description>"Glowstick Intensity"</Description>
-                      <LastState Value="0.6000000238" RealAddress="18D814D087C"/>
                       <ShowAsSigned>1</ShowAsSigned>
                       <VariableType>Float</VariableType>
                       <Address>find_glowstick</Address>
@@ -581,7 +577,6 @@ UnityPlayer.dll.text+601FB5: 48 85 81 C8 00 00 00  - test [rcx+000000C8],rax
                     <CheatEntry>
                       <ID>1425</ID>
                       <Description>"Glowstick Range"</Description>
-                      <LastState Value="4" RealAddress="18D814D0880"/>
                       <ShowAsSigned>1</ShowAsSigned>
                       <VariableType>Float</VariableType>
                       <Address>find_glowstick</Address>
@@ -592,7 +587,6 @@ UnityPlayer.dll.text+601FB5: 48 85 81 C8 00 00 00  - test [rcx+000000C8],rax
                     <CheatEntry>
                       <ID>1426</ID>
                       <Description>"Glowstick Spot Angle"</Description>
-                      <LastState Value="30" RealAddress="18D814D088C"/>
                       <ShowAsSigned>1</ShowAsSigned>
                       <VariableType>Float</VariableType>
                       <Address>find_glowstick</Address>
@@ -612,7 +606,6 @@ UnityPlayer.dll.text+601FB5: 48 85 81 C8 00 00 00  - test [rcx+000000C8],rax
                     <CheatEntry>
                       <ID>1428</ID>
                       <Description>"Shoulder Light Intensity"</Description>
-                      <LastState Value="1" RealAddress="18EA540086C"/>
                       <ShowAsSigned>1</ShowAsSigned>
                       <VariableType>Float</VariableType>
                       <Address>find_shoulderlight</Address>
@@ -623,7 +616,6 @@ UnityPlayer.dll.text+601FB5: 48 85 81 C8 00 00 00  - test [rcx+000000C8],rax
                     <CheatEntry>
                       <ID>1429</ID>
                       <Description>"Shoulder Light Range"</Description>
-                      <LastState Value="1" RealAddress="18EA5400870"/>
                       <ShowAsSigned>1</ShowAsSigned>
                       <VariableType>Float</VariableType>
                       <Address>find_shoulderlight</Address>
@@ -634,7 +626,6 @@ UnityPlayer.dll.text+601FB5: 48 85 81 C8 00 00 00  - test [rcx+000000C8],rax
                     <CheatEntry>
                       <ID>1430</ID>
                       <Description>"Shoulder Light Spot Angle"</Description>
-                      <LastState Value="100" RealAddress="18EA540087C"/>
                       <ShowAsSigned>1</ShowAsSigned>
                       <VariableType>Float</VariableType>
                       <Address>find_shoulderlight</Address>
@@ -654,7 +645,6 @@ UnityPlayer.dll.text+601FB5: 48 85 81 C8 00 00 00  - test [rcx+000000C8],rax
                     <CheatEntry>
                       <ID>1432</ID>
                       <Description>"Button Light Intensity"</Description>
-                      <LastState Value="1" RealAddress="18EA656339C"/>
                       <ShowAsSigned>1</ShowAsSigned>
                       <VariableType>Float</VariableType>
                       <Address>find_buttonlight</Address>
@@ -665,7 +655,6 @@ UnityPlayer.dll.text+601FB5: 48 85 81 C8 00 00 00  - test [rcx+000000C8],rax
                     <CheatEntry>
                       <ID>1433</ID>
                       <Description>"Button Light Range"</Description>
-                      <LastState Value="20" RealAddress="18EA65633A0"/>
                       <ShowAsSigned>1</ShowAsSigned>
                       <VariableType>Float</VariableType>
                       <Address>find_buttonlight</Address>
@@ -676,7 +665,6 @@ UnityPlayer.dll.text+601FB5: 48 85 81 C8 00 00 00  - test [rcx+000000C8],rax
                     <CheatEntry>
                       <ID>1434</ID>
                       <Description>"Button Light Spot Angle"</Description>
-                      <LastState Value="80" RealAddress="18EA65633AC"/>
                       <ShowAsSigned>1</ShowAsSigned>
                       <VariableType>Float</VariableType>
                       <Address>find_buttonlight</Address>
@@ -971,6 +959,77 @@ GameAssembly.dll+EEE63B: CC                    - int 3
 </AssemblerScript>
             </CheatEntry>
             <CheatEntry>
+              <ID>1435</ID>
+              <Description>"Infinite Smudge Stick Uses"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{ Game   : Phasmophobia.exe
+  Version: 
+  Date   : 2021-03-15
+  Author : joeyc
+
+  This script does blah blah blah
+}
+
+[ENABLE]
+
+aobscanmodule(SAGE,GameAssembly.dll,C6 41 38 01 75 12 8B 0D * * * * E8 8B) // should be unique
+alloc(newmem,$1000,SAGE)
+
+label(code)
+label(return)
+
+newmem:
+
+code:
+  mov byte ptr [rcx+38],00
+  jne 7FFFFE35146C
+  jmp return
+
+SAGE:
+  jmp newmem
+  nop
+return:
+registersymbol(SAGE)
+
+[DISABLE]
+
+SAGE:
+  db C6 41 38 01 75 12
+
+unregistersymbol(SAGE)
+dealloc(newmem)
+
+{
+// ORIGINAL CODE - INJECTION POINT: GameAssembly.dll.il2cpp+102E454
+
+GameAssembly.dll.il2cpp+102E43B: CC                    - int 3 
+GameAssembly.dll.il2cpp+102E43C: CC                    - int 3 
+GameAssembly.dll.il2cpp+102E43D: CC                    - int 3 
+GameAssembly.dll.il2cpp+102E43E: CC                    - int 3 
+GameAssembly.dll.il2cpp+102E43F: CC                    - int 3 
+WhiteSage.NetworkedUse: 48 89 5C 24 08        - mov [rsp+08],rbx
+GameAssembly.dll.il2cpp+102E445: 57                    - push rdi
+GameAssembly.dll.il2cpp+102E446: 48 83 EC 20           - sub rsp,20
+GameAssembly.dll.il2cpp+102E44A: 80 3D 97 4D 73 01 00  - cmp byte ptr [7FFFFFA861E8],00
+GameAssembly.dll.il2cpp+102E451: 48 8B D9              - mov rbx,rcx
+// ---------- INJECTING HERE ----------
+GameAssembly.dll.il2cpp+102E454: C6 41 38 01           - mov byte ptr [rcx+38],01
+// ---------- DONE INJECTING  ----------
+GameAssembly.dll.il2cpp+102E458: 75 12                 - jne GameAssembly.dll.il2cpp+102E46C
+GameAssembly.dll.il2cpp+102E45A: 8B 0D CC 0D FE 00     - mov ecx,[GameAssembly.dll.rdata+14B22C]
+GameAssembly.dll.il2cpp+102E460: E8 8B 86 E7 FE        - call GameAssembly.dll.text+E8AF0
+GameAssembly.dll.il2cpp+102E465: C6 05 7C 4D 73 01 01  - mov byte ptr [7FFFFFA861E8],01
+GameAssembly.dll.il2cpp+102E46C: 48 8B 0D 35 50 78 01  - mov rcx,[7FFFFFAD64A8]
+GameAssembly.dll.il2cpp+102E473: E8 A8 87 E7 FE        - call GameAssembly.dll.text+E8C20
+GameAssembly.dll.il2cpp+102E478: 45 33 C0              - xor r8d,r8d
+GameAssembly.dll.il2cpp+102E47B: 33 D2                 - xor edx,edx
+GameAssembly.dll.il2cpp+102E47D: 48 8B C8              - mov rcx,rax
+GameAssembly.dll.il2cpp+102E480: 48 8B F8              - mov rdi,rax
+}
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
               <ID>313</ID>
               <Description>"Ghost Info"</Description>
               <Options moHideChildren="1"/>
@@ -1176,7 +1235,7 @@ GameAssembly.dll+F4997D: 0F 29 74 24 30        - movaps [rsp+30],xmm6
               <ID>361</ID>
               <Description>"FuseBox/Light Info (use a switch to update)"</Description>
               <Options moHideChildren="1"/>
-              <LastState Activated="1"/>
+              <LastState/>
               <Color>000000</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{ Game   : Phasmophobia.exe
@@ -1257,7 +1316,6 @@ GameAssembly.dll+1034B5A: 01 9F 80 00 00 00     - add [rdi+00000080],ebx
                   <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:OFF
 1:ON
 </DropDownList>
-                  <LastState Value="0" RealAddress="18F4BFAA2E0"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>_FuseBox</Address>
@@ -1268,7 +1326,6 @@ GameAssembly.dll+1034B5A: 01 9F 80 00 00 00     - add [rdi+00000080],ebx
                 <CheatEntry>
                   <ID>360</ID>
                   <Description>"Current number of switches ON"</Description>
-                  <LastState Value="1" RealAddress="18F4BFAA300"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>_FuseBox</Address>
@@ -1279,7 +1336,6 @@ GameAssembly.dll+1034B5A: 01 9F 80 00 00 00     - add [rdi+00000080],ebx
                 <CheatEntry>
                   <ID>357</ID>
                   <Description>"Max Lights before power cut"</Description>
-                  <LastState Value="10" RealAddress="18F4BFAA304"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>_FuseBox</Address>
@@ -1679,7 +1735,7 @@ GameAssembly.dll+1BA9D2B: 48 8B CB              - mov rcx,rbx
               <ID>487</ID>
               <Description>"Player Coordinates Hook"</Description>
               <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-              <LastState Activated="1"/>
+              <LastState/>
               <Color>000000</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
@@ -1850,7 +1906,6 @@ UnityPlayer.dll+846CEA: 48 8B 01           - mov rax,[rcx]
                 <CheatEntry>
                   <ID>488</ID>
                   <Description>"Save Position Slot1 (F1)"</Description>
-                  <LastState Value="0" RealAddress="7FF802BC1016"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <Color>000000</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -1870,7 +1925,6 @@ UnityPlayer.dll+846CEA: 48 8B 01           - mov rax,[rcx]
                 <CheatEntry>
                   <ID>489</ID>
                   <Description>"Load Slot1 (F2)"</Description>
-                  <LastState Value="0" RealAddress="7FF802BC101A"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <Color>000000</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -1890,7 +1944,6 @@ UnityPlayer.dll+846CEA: 48 8B 01           - mov rax,[rcx]
                 <CheatEntry>
                   <ID>490</ID>
                   <Description>"Save Position Slot2 (F3)"</Description>
-                  <LastState Value="1600126992" RealAddress="7FF802BC1116"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <Color>000000</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -1910,7 +1963,6 @@ UnityPlayer.dll+846CEA: 48 8B 01           - mov rax,[rcx]
                 <CheatEntry>
                   <ID>491</ID>
                   <Description>"Load Slot2 (F4)"</Description>
-                  <LastState Value="0" RealAddress="7FF802BC111A"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <Color>000000</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -1930,7 +1982,6 @@ UnityPlayer.dll+846CEA: 48 8B 01           - mov rax,[rcx]
                 <CheatEntry>
                   <ID>492</ID>
                   <Description>"Xpos"</Description>
-                  <LastState Value="1.870566368" RealAddress="1905536A72C"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <Color>000000</Color>
                   <VariableType>Float</VariableType>
@@ -1964,7 +2015,6 @@ UnityPlayer.dll+846CEA: 48 8B 01           - mov rax,[rcx]
                 <CheatEntry>
                   <ID>493</ID>
                   <Description>"Ypos"</Description>
-                  <LastState Value="1.836173654" RealAddress="1905536A724"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <Color>000000</Color>
                   <VariableType>Float</VariableType>
@@ -1998,7 +2048,6 @@ UnityPlayer.dll+846CEA: 48 8B 01           - mov rax,[rcx]
                 <CheatEntry>
                   <ID>494</ID>
                   <Description>"Zpos"</Description>
-                  <LastState Value="2.238117218" RealAddress="1905536A71C"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <Color>000000</Color>
                   <VariableType>Float</VariableType>
@@ -2120,7 +2169,7 @@ UnityPlayer.dll+101787F: 66 0F 5A D0              - cvtpd2ps xmm2,xmm0
             <CheatEntry>
               <ID>550</ID>
               <Description>"Walk/Sprint Hack"</Description>
-              <LastState Activated="1"/>
+              <LastState/>
               <Color>000000</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{ Game   : Phasmophobia.exe
@@ -2265,7 +2314,6 @@ GameAssembly.dll.il2cpp+5EB2E4: E8 57 75 0B 00              - call GameAssembly.
                 <CheatEntry>
                   <ID>1381</ID>
                   <Description>"Default Walk Speed = 1.200000048"</Description>
-                  <LastState Value="1.200000048" RealAddress="7FFFFF20B938"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Float</VariableType>
                   <Address>GameAssembly.dll+212B938</Address>
@@ -2273,7 +2321,6 @@ GameAssembly.dll.il2cpp+5EB2E4: E8 57 75 0B 00              - call GameAssembly.
                 <CheatEntry>
                   <ID>2</ID>
                   <Description>"Default Run Speed = 1.600000024"</Description>
-                  <LastState Value="1.600000024" RealAddress="7FFFFF2064A4"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Float</VariableType>
                   <Address>GameAssembly.dll+21264A4</Address>
